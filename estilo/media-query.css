@@ -10,13 +10,14 @@ DESKTOP: 992PX ATÉ 1200PX
 TV: ACIMA DE 1200PX */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-   body {
+   body { /* CONFIGURAÇÃO PARA TABLET */ 
       background-image: linear-gradient(to top, #121124, #c6d2fa) ;
    }
 
 
    section#login {
     width: 80vw;
+    height: 290px;
    } 
 
    section#login > div#imagem {
@@ -33,12 +34,13 @@ TV: ACIMA DE 1200PX */
 }
 
 @media screen and (min-width: 992px) {
-   body {
+   body { /* CONFIGURAÇOES DE TELAS GRANDES */
       background-image: linear-gradient(to top, #121124, #c6d2fa) ;
    }
 
    section#login {
       width: 950px;
+      height: 350px;
    }
 
    section#login > div#imagem {
@@ -57,7 +59,8 @@ TV: ACIMA DE 1200PX */
    }
 
    div#formulario > p {
-      font-size: 1.2em;
+      font-size: 1em;
+      margin: 20px 0px;
    }
 }
 
